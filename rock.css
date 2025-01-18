@@ -49,4 +49,14 @@
        padding: 0.8rem;
        width: 100px;
        border-radius: 10px;
-       background: ;
+       background: green ;
+       outline: none;
+       border-color: green;
+       border: none;
+       cursor: pointer;
+}
+.move{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
