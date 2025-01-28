@@ -49,4 +49,42 @@
        padding: 0.8rem;
        width: 100px;
        border-radius: 10px;
-       background: ;
+       background: green ;
+       outline: none;
+       border-color: green;
+       border: none;
+       cursor: pointer;
+}
+.move{
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* Reloadbutton styles */
+.reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+/* responsive design */
+@media screen and (max-width: 612px) {
+    .title {
+        text-align: center;
+        }
+        .score {
+            position: absolute;
+            top: 200px;
+            width: 100vw;
+        }
+        .options {
+            width: 100vw;
+        }
+    }

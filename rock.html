@@ -1,0 +1,44 @@
+<!--html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width,initial-scale= 1.0">
+        <link rel="stylesheet" href="rock.css">
+        <title>Rock Paper Scissor</title>
+    </head>
+    <body>
+        <section class="game">
+            <!--title-->
+            <div class="title">Rock Paper Scissor</div>
+        <!--Display SCore of the player and computer-->
+        <div class="score">
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count" >0</p>
+            </div>
+            <div class="computerScore">
+                <h2>COmputer</h2>
+                <p class="c-count count">0</p>
+            </div>
+            <div class="move">Choose your move</div>
+
+            <!--Number of moves left before game ends-->
+            <div class="movesLeft">Moves Left :10</div>
+
+            <!--options available to player to play game-->
+            <div class="options">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="Scissor">Scissors</button>
+            </div>
+            <!--Final result of game-->
+            <div class="result"></div>
+            <!--reload the game -->
+            <button class="reload"></button>
+        </div>
+        </section>
+        <script src="rock.js"></script>
+    </body>
+</html>
